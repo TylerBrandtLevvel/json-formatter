@@ -1,4 +1,17 @@
+span.objectProperty {
+  font-family: "Lucida Console", Monaco, monospace !important;
+}
+
+body {
+  font-family: "Lucida Console", Monaco, monospace !important;
+}
+
+::selection {
+  background: #c1c9dc !important; /* WebKit/Blink Browsers */
+}
+
 body.theme-monokai {
+
   $foreground: #f8f8f2;
 
   background-color: #272822;
